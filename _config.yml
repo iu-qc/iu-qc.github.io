@@ -1,0 +1,19 @@
+name: Kuantum Hesaplama Dersleri
+
+baseurl: ""
+
+permalink: /:categories/:title:output_ext
+
+timezone: Europe/Istanbul
+
+markdown: kramdown
+
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
